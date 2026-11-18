@@ -6,11 +6,11 @@
 /*   By: yaperalt <yaperalt@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/04 02:21:32 by yaperalt          #+#    #+#             */
-/*   Updated: 2026/10/04 02:48:16 by yaperalt         ###   ########.fr       */
+/*   Updated: 2026/11/08 21:57:00 by yaperalt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "zombie.hpp"
+#include "include/zombie.hpp"
 
 Zombie* zombieHorde(int N, std::string name){
     Zombie* zombie_array = new Zombie[N];
