@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yaperalt <yaperalt@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: yaperalt <yaperalt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/03 20:32:58 by yaperalt          #+#    #+#             */
-/*   Updated: 2026/10/25 14:56:21 by yaperalt         ###   ########.fr       */
+/*   Updated: 2026/11/18 16:39:04 by yaperalt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int main(void) {
     Zombie stack_zombie(zombie2);
     stack_zombie.announce();
 
-    ramdomChump("Bernardo");
+    randomChump("Bernardo");
 
     delete heap_zombie;
     
